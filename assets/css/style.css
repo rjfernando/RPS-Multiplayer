@@ -33,20 +33,72 @@ body {
     height: 210px;   
 } */
 
-/* #playerOne {
+#playerOne {
     width: 200px;
-    height: 210px;
+    height: 150px;
+    background: lightskyblue;
     border: 2px solid black;
 }
 
 #playerTwo {
     width: 200px;
-    height: 210px; 
+    height: 150px; 
+    background: rgb(245, 77, 77);
     border: 2px solid black;
-} */
+}
 
 #chatWindow {
     width: 410px;
     height: 210px;
-    border: 2px solid black;   
+    margin-top: 30px;
+    background: white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#messageInput {
+    width: 815px;
+    margin: 0px auto;
+}
+
+#message-input {
+    width: 350px;
+    margin-top: 15px;   
+}
+
+.paperImage {
+    width: 65x;
+    height: 65px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.rockImage {
+    width: 65x;
+    height: 65px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.scissorsImage {
+    width: 65x;
+    height: 65px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#pTwoSelecter {
+    margin-left: 25px;
+}
+
+#pOneSelecter {
+    margin-left: 20px;
 }
