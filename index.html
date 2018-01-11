@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/reset.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <title>RPS Game</title>
+  </head>
+  <body>
+      
+    <div class ="container">
+        <div class = "row">
+            <div class = "col-md-12">
+                <img src ="assets/images/rpsheader.png" alt = "rpsimage" class = "imgHeader">
+                <h1 class="display-4">ROCK PAPER SCISSORS</h1>
+            <div>
+        </div>      
+    </div>
+    
+    <div class ="container">
+        <div class ="row">
+            <div class ="col-md-3">
+                <div id ="playerOne">
+                    <h3>Player 1</h3>
+                </div>
+            </div>
+            <div class ="col-md-6">
+                <form id="nameInput">
+                    <label for="name-input"></label>
+                    <input type="text" id="name-input" placeholder="Name">
+                    <input id="add-car" type="submit" value="Start">
+                </form>
+               
+                <div id ="results">
+                </div>
+            </div>
+            <div class ="col-md-3">
+                <div id ="playerTwo">
+                    <h3>Player 2</h3>
+                </div>
+            </div>
+        </div>
+        <div class ="row">
+            <div class ="col-md-3">
+                <div class ="rpsSelecter">
+                </div>
+            </div>
+            <div class ="col-md-6">
+                <div id = "chatWindow">
+                </div>
+            </div>
+            <div class ="col-md-3">
+                <div id = "rpsSelecter">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>  
+    
+    
+    
+    
+    
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="assets/javascript/logic.js"></script>   
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>

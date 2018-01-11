@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: lightgray;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imgHeader {
+    padding: 0px;
+    width: 500px;
+}
+
+.display-4 {
+    word-spacing: 30px;
+    padding-left: 30px;
+    font-size: 38px;
+}
+
+/* .col-md-3 {
+    border: 2px solid black;
+    width: 200px;
+    height: 210px;
+} */
+
+/* .col-md-6 {
+    border: 2px solid black;
+    width: 300px;
+    height: 210px;   
+} */
+
+/* #playerOne {
+    width: 200px;
+    height: 210px;
+    border: 2px solid black;
+}
+
+#playerTwo {
+    width: 200px;
+    height: 210px; 
+    border: 2px solid black;
+} */
+
+#chatWindow {
+    width: 410px;
+    height: 210px;
+    border: 2px solid black;   
+}
