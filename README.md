@@ -6,6 +6,8 @@ An interactive multiplayer rock, paper, and scissors game that uses Firebase to 
 
 # Get Start
 
+Stil in development
+
 # Build
 
 1. HTML
